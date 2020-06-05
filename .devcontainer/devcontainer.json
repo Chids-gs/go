@@ -10,6 +10,8 @@
         "visualstudioexptteam.vscodeintellicode",
         "ms-vscode.go"
     ],
+     // Use 'forwardPorts' to create a container with published ports.
+     "forwardPorts": [3000],
     "dockerFile": "Dockerfile",
     "settings": {
         "files.exclude": {
