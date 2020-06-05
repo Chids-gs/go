@@ -45,7 +45,7 @@ func main(){
 	
 	
 }
-// AesEncrypt encrypts data using the specified key
+
 func AesEncrypt(plaintext, key []byte) ([]byte, error) {
 	block, err := aes.NewCipher(key)
 	if err != nil {
