@@ -31,7 +31,7 @@ func base64DecodeStripped(s string) (string, error) {
 func main(){
 	data:="CodeAnywhere"
 	aesKey := NewAesKey()
-	
+	// encrypt data using AES
 	
 	body, err := AesEncrypt([]byte(data), aesKey)
 	encoded := base64EncodeStripped(string(body))
